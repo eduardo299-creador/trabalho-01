@@ -1,4 +1,4 @@
-Tarefa01 - Menu de Exercícios em TypeScript
+*Tarefa01 - Menu de Exercícios em TypeScript*
 
 Este projeto implementa um menu interativo em Node.js com TypeScript, onde você pode escolher entre 18 exercícios diferentes que demonstram conceitos básicos de programação.
 
