@@ -1,8 +1,9 @@
-*Tarefa01 - Menu de Exercícios em TypeScript*
+# **Tarefa01 - Menu de Exercícios em TypeScript**
 
 Este projeto implementa um menu interativo em Node.js com TypeScript, onde você pode escolher entre 18 exercícios diferentes que demonstram conceitos básicos de programação.
 
-Estrutura do Projeto
+## Estrutura do Projeto
+
 
 / (raiz do projeto)
 ├── EXERCICIO/           # Pasta com os arquivos dos exercícios
@@ -17,66 +18,79 @@ Estrutura do Projeto
 ├── tsconfig.json        # Configuração do compilador TypeScript
 └── README.md            # Este arquivo de documentação
 
-Pré-requisitos
 
-Node.js (versão 14 ou superior)
+## Pré-requisitos
 
-npm (geralmente instalado junto com o Node)
+* [Node.js](https://nodejs.org/) (versão 14 ou superior)
+* [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node)
 
-Instalação
+## Instalação
 
-https://github.com/eduardo299-creador/trabalho-01
+1.  repositóri
 
-Entre na pasta do projeto:
+   `bash
+   git clone https://github.com/eduardo299-creador/trabalho-01.git
+   
 
-cd tarefa01
+2. Entre na pasta do projeto:
 
-Instale as dependências:
+   `bash
+   cd trabalho-01
+   
 
-npm install
+3. Instale as dependências:
 
-Execução
+   `bash
+   npm install
+   
 
-Executar diretamente com ts-node
+## Execução
+
+### Executar diretamente com ts-node
 
 Este método permite rodar o TypeScript sem compilar manualmente:
 
+`bash
 npx ts-node index.ts
 
-Compilar e rodar com Node.js
 
-Inicie o TypeScript e gere os arquivos JavaScript:
+### Compilar e rodar com Node.js
 
-npx tsc
+1. Inicie o TypeScript e gere os arquivos JavaScript:
 
-Execute o código compilado:
+   `bash
+   npx tsc
+   
 
-node dist/index.js
+2. Execute o código compilado:
 
-Scripts úteis
+   `bash
+   node dist/index.js
+   
 
-No package.json estão disponíveis os seguintes scripts:
+## Scripts úteis
 
-Comando
+No `package.json` estão disponíveis os seguintes scripts:
 
-Descrição
+| Comando         | Descrição                                 |
+| --------------- | ----------------------------------------- |
+| `npm start`     | Executa o menu (`ts-node index.ts`)       |
+| `npm run build` | Compila todo o projeto TypeScript (`tsc`) |
 
-npm start
+Utilize `npm start` para iniciar o menu interativo.
 
-Executa o menu (ts-node index.ts)
-
-npm run build
-
-Compila todo o projeto TypeScript (tsc)
-
-Utilize npm start para iniciar o menu interativo.
-
-Uso
+## Uso
 
 Ao iniciar, você verá um menu com opções de 0 a 18:
 
-Digite o número do exercício desejado e pressione Enter.
+* Digite o número do exercício desejado e pressione Enter.
+* Após a execução, pressione Enter novamente para retornar ao menu.
+* Digite `0` e pressione Enter para sair.
 
-Após a execução, pressione Enter novamente para retornar ao menu.
+## Contribuição
 
-Digite 0 e pressione Enter para sair.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
