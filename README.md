@@ -25,8 +25,6 @@ npm (geralmente instalado junto com o Node)
 
 Instalação
 
-Clone este repositório:
-
 https://github.com/eduardo299-creador/trabalho-01
 
 Entre na pasta do projeto:
