@@ -28,19 +28,19 @@ Este projeto implementa um menu interativo em Node.js com TypeScript, onde você
 
 1.  repositóri
 
-   `bash
+   -bash
    git clone https://github.com/eduardo299-creador/trabalho-01.git
    
 
 2. Entre na pasta do projeto:
 
-   `bash
+   -bash
    cd trabalho-01
    
 
 3. Instale as dependências:
 
-   `bash
+   -bash
    npm install
    
 
@@ -50,7 +50,7 @@ Este projeto implementa um menu interativo em Node.js com TypeScript, onde você
 
 Este método permite rodar o TypeScript sem compilar manualmente:
 
-`bash
+-bash
 npx ts-node index.ts
 
 
@@ -70,7 +70,7 @@ npx ts-node index.ts
 
 ## Scripts úteis
 
-No `package.json` estão disponíveis os seguintes scripts:
+No -package.json` estão disponíveis os seguintes scripts:
 
 | Comando         | Descrição                                 |
 | --------------- | ----------------------------------------- |
